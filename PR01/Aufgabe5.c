@@ -11,6 +11,8 @@ int main()
     quadrat(zahl);
 
     printf("Quadrat: %f", *zahl);
+
+    return EXIT_SUCCESS;
 }
 
 void quadrat(float *zahl)

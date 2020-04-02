@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -24,4 +25,6 @@ int main()
     to_upper_case(input, output);
 
     printf("Umgewandelt: %s\n", output);
+
+    return EXIT_SUCCESS;
 }
